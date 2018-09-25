@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cupcake"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vanilla_lemon_thumbnail" />
+
+
+    <TextView
+        android:id="@+id/Tabby_Bakery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Tabby's Bakery"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_below="@id/cupcake"/>
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tabby_Bakery"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:text="555 Wallstreet Dr., San Jose, CA"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours: M-F 12pm - 4pm"
+        android:layout_below="@id/Address"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="555-768-3456"
+        android:textSize="20dp"
+        android:layout_below="@id/Hours"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+</RelativeLayout>
